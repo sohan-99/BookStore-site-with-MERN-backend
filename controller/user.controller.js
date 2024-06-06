@@ -42,4 +42,4 @@ try {
   console.log("Error: " + error.message);
   res.status(500).json({ message: "Internal server error!" });
 }
-}
+};
